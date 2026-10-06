@@ -1,5 +1,8 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main() {
     IO.println("Hello World!");
+    String word = IO.readln("Enter your any word here:");
+    for (int i = 0 ; i<word.length(); i++) {
+        IO.println("Iteration "+(i+1)+":"+word.charAt(i));
+    }
 }
+
