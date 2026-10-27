@@ -10,6 +10,6 @@ void main() {
         System.out.println(car1.getColor());
 
         System.out.println("Are these objects equal? " + car1.equals(car2));
-        System.out.println("The HashCode of this object is: " + car1.hashCode());
-        System.out.println("The HashCode of this object is: " + car2.hashCode());
+        System.out.println("The HashCode of this object is(Car1): " + car1.hashCode());
+        System.out.println("The HashCode of this object is(Car2): " + car2.hashCode());
 }
