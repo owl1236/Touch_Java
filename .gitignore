@@ -1,8 +1,25 @@
 ### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-.kotlin
+.kotlin/
+
+### Logs ###
+*.log
+logs/
+log/
+
+### Build tools ###
+target/
+build/
+.gradle/
+gradlew
+gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar
 
 ### Eclipse ###
 .apt_generated
