@@ -2,6 +2,7 @@ import lombok.*;
 
 @Data
 @AllArgsConstructor
+@ToString(exclude = "quantity")        
 @EqualsAndHashCode(of = "brand")
 
 public class CarWithLombok {
